@@ -24,7 +24,7 @@ print.knnForecast <- function (x, ...) {
         cat (",", x$model$k[ind])
       }
     }
-    cat(" neighbors repectively\n")
+    cat(" neighbors respectively\n")
   }
   cat("Autoregressive lags:", rev(x$model$lags), "\n")
   cat("Number of examples:", nrow(x$model$examples$patterns), "\n")
@@ -80,7 +80,7 @@ print.summary.knnForecast <- function (x, ...) {
         cat (",", x$k[ind])
       }
     }
-    cat(" neighbors repectively\n")
+    cat(" neighbors respectively\n")
   }
   cat("Autoregressive lags:", x$lags, "\n")
   cat("Number of examples:", x$nneighbors, "\n")
